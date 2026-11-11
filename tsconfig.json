@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-native",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "App.tsx"
+  ],
+  "extends": "expo/tsconfig.base"
+}

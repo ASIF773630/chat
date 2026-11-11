@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "ConnectX",
+    "slug": "connectx-random-chat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "plugins": [
+      [
+        "@config-plugins/react-native-webrtc",
+        {
+          "cameraPermission": "ConnectX uses the camera for video calls.",
+          "microphonePermission": "ConnectX uses the microphone for voice and video calls."
+        }
+      ]
+    ]
+  }
+}
